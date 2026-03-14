@@ -364,58 +364,67 @@ button {
   transform: scale(1.06);
 }
 
-/* =========================================================
-   REALITY SECTION (IT NANBARGAL — FINAL)
-========================================================= */
+/* =========================================
+   REALITY — FINAL CLEAN VERSION
+========================================= */
 
 .section.reality {
   padding: 100px 20px;
 }
 
+/* container */
+
 .section.reality .container {
   max-width: 720px;
   margin: auto;
+  text-align: center; /* 🔥 FINAL alignment */
 }
 
-/* lines */
-.reality-line {
-  font-size: 1.1rem;
+/* heading */
+
+.section.reality h2 {
+  margin-bottom: 22px;
+}
+
+/* normal lines */
+
+.section.reality .reality-line {
+  font-size: 1.05rem;
   line-height: 1.9;
   margin: 6px 0;
   color: var(--text-soft);
 }
 
-/* strong punch line */
-.reality-line.strong {
+/* strong lines */
+
+.section.reality .reality-line.strong {
   font-size: 1.25rem;
   font-weight: 800;
   color: var(--text-main);
 }
 
-/* spacing break */
-.reality-gap {
+/* spacing */
+
+.section.reality .reality-gap {
   height: 14px;
 }
 
-/* closing note */
-.reality-note {
-  margin-top: 22px;
-  font-size: 1rem;
-  line-height: 1.75;
-  color: var(--text-muted);
-}
+/* MOBILE PERFECT */
 
-/* mobile */
 @media (max-width: 768px) {
   .section.reality {
     padding: 80px 18px;
   }
 
-  .reality-line {
+  .section.reality h2 {
+    font-size: 1.4rem;
+  }
+
+  .section.reality .reality-line {
     font-size: 1rem;
   }
 
-  .reality-line.strong {
+  .section.reality .reality-line.strong {
     font-size: 1.1rem;
   }
 }
@@ -471,6 +480,7 @@ button {
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.2px;
+  padding: 0 10px; /* 🔥 add this */
 }
 
 /* BUTTON */
@@ -551,21 +561,6 @@ button {
   letter-spacing: -0.01em;
 }
 
-/* PERFECT HEADING SYSTEM */
-
-.section.reality .container,
-.section.why .container {
-  max-width: 720px;
-  margin: auto;
-  text-align: left;
-}
-
-.section.reality h2,
-.section.why h2 {
-  text-align: left;
-  margin-bottom: 18px;
-}
-
 @media (max-width: 768px) {
   .internship-inner {
     grid-template-columns: auto 1fr;
@@ -584,49 +579,5 @@ button {
   .internship-bar-logo {
     width: 24px;
     height: 24px;
-  }
-}
-
-/* REALITY — PERFECT VISUAL ALIGNMENT */
-
-.section.reality .container {
-  max-width: 720px;
-  margin: auto;
-  text-align: center; /* everything center */
-}
-
-/* HEADING */
-
-.section.reality h2 {
-  margin-bottom: 22px;
-}
-
-/* NORMAL LINES */
-
-.section.reality .reality-line {
-  font-size: 1.05rem;
-  line-height: 1.9;
-}
-
-/* STRONG LINES (IMPACT) */
-
-.section.reality .reality-line.strong {
-  font-size: 1.25rem;
-  font-weight: 800;
-}
-
-/* MOBILE PERFECT */
-
-@media (max-width: 768px) {
-  .section.reality h2 {
-    font-size: 1.4rem;
-  }
-
-  .section.reality .reality-line {
-    font-size: 1rem;
-  }
-
-  .section.reality .reality-line.strong {
-    font-size: 1.1rem;
   }
 }
